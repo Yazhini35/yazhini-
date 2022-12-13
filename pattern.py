@@ -1,7 +1,5 @@
-def patt(a):
-    for i in range(0,a):
-        for j in range(0,i+1):
-            print("*",end=" ")
-        print("\r")
-n=int(input("Enter the limit:"))
-print(patt(n))
+row=5
+for i in range(rows+1):
+ for j in range(i):
+    print(i,end='')
+print('')
